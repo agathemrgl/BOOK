@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+      * {padding: 0;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        box-sizing: border-box;
+      }
+
+      body {background: #FFFAFA;}
+
+      header {
+        background: #71A683;
+        font-size: 30px;
+
+      }
+      /* mobile first */
+
+      article {
+        width: 100%;
+        float: left;
+        background : silver;
+        border : 1px dotted #D5F2DF;
+
+      }
+      /* desktop */
+    @media only screen and (min-width: 600px) {
+      .col-s-6 {width: 50%;}
+
+    }
+
+    /* desktop */
+    @media only screen and (min-width: 768px) {
+      .col-3 {width: 25%;}
+
+    }
+
+    img{
+      max-width : 100%;
+      height :
+
+    }
+
+    </style>
+  </head>
+
+
+  <body>
+    <header> TITRE </header>
+
+    <article class="col-3 col-s-6">
+        <img src="https://picsum.photos/500/300/?random" />
+    </article>
+    <article class="col-3 col-s-6">
+      <img src="https://picsum.photos/500/300/?grayscalerandom" />
+    </article>
+    <article class="col-3 col-s-6">
+      <img src="https://picsum.photos/500/300/" /> 
+    </article>
+    <article class="col-3 col-s-6">
+      <img src="https://picsum.photos/500/300/?grayscale" />
+    </article>
+
+    <script type="text/javascript">
+
+    </script>
+
+  </body>
+</html>
